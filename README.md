@@ -17,7 +17,7 @@ See https://godoc.org/github.com/violarulan/ker
     
     func main(){
         var resp ker.ApiResponse
-        user := ker.User{Email: "user@domain.tld", AccessToken: "d0113297439b0a467fbd30dbd4ad369a1e4e0189807b63575aff94c038600005"
+        user := ker.User{Email: "user@domain.tld", AccessToken: "d0113297439b0a467fbd30dbd4ad369a1e4e0189807b63575aff94c038600005"}
         resp = user.Balance()
         fmt.Println(resp.Balance)
     }
